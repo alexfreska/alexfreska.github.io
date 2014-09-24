@@ -9,14 +9,16 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 100;
   background-color: #fdfdfd;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 200; }
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
@@ -28,7 +30,7 @@ a:visited { color: #205caa; }
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 800px;
+  max-width: 1000px;
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
@@ -52,7 +54,7 @@ a:visited { color: #205caa; }
 .site-title:visited {
   display: block;
   color: #333;
-  font-size: 26px;
+  font-size: 18px;
   letter-spacing: -1px;
   float: left;
   line-height: 56px;
@@ -144,14 +146,14 @@ a:visited { color: #205caa; }
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-.home h1 { margin-bottom: 25px; }
+.home h1 { margin-bottom: 4px; }
 
 .posts { list-style-type: none; }
 
-.posts li { margin-bottom: 30px; }
+.posts li { margin-bottom: 10px; }
 
 .posts .post-link {
-  font-size: 24px;
+  font-size: 14px;
   letter-spacing: -1px;
   line-height: 1;
 }
@@ -162,6 +164,44 @@ a:visited { color: #205caa; }
   color: #818181;
 }
 
+.section {
+    border-top: 1px solid #e8e8e8;
+    margin: 5px 20px 25px 5px;
+    padding-top: 4px;
+}
+.section h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+#columns {
+    float: left;
+}
+@media (min-width: 500px) {
+
+    #columns {
+        float: left;
+        position: absolute;
+        /* width: 50%; */
+        display: inline;
+    }
+}
+
+.column {
+    min-width: 200px;
+    float: left;
+}
+.column .section {
+    display: block;
+}
+
+#about {
+    margin-top: 0px;
+    width: 150px;
+    float: left;
+    border: none;
+}
+
+
 
 /* Post styles */
 /* ----------------------------------------------------------*/
@@ -169,7 +209,7 @@ a:visited { color: #205caa; }
 .post-header { margin: 10px 0 30px; }
 
 .post-header h1 {
-  font-size: 42px;
+  font-size: 22px;
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
