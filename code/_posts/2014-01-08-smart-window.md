@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "SmartWindow - Autonomous enery-saving windows"
-date:   2014-01-08 18:59:58
+title:  "SmartWindow"
+description: "autonomous energy-saving windows"
+date:   2014-01-01 0:00:08
 categories: code sustainability weather
 ---
 

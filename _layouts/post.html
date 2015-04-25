@@ -1,15 +1,27 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="container post">
+  <div class="row name">
+    <div class="six columns">
+      <p><a href="{{ site.url }}">←  home</a></p>
+      <h1>{{ page.title }}</h1>
+      <h5>{{ page.description }}</h5>
+    </div>
+  </div>
 
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+  <div class="row">
+    <div class="six columns">
+      <article class="post-content">
+        {{ content }}
+      </sarticle>
+    </div>
+    <div class="six columns">
+      {% if page.image %}
+        <img src="{{site.url}}assets/{{ page.image }}" alt="template" style="width: 100%;"/>
+      {% endif %}
+    </div>
+  </div>
 
-  <article class="post-content">
-  {{ content }}
-  </article>
 
 </div>

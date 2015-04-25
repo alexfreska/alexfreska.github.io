@@ -2,58 +2,74 @@
 layout: default
 ---
 
-<div class="home">
-
-    <div id="about" class="section">
-        <img src="http://www.gravatar.com/avatar/b7452541a659071b71df3348413637ee.jpg?s=140&r=g"></img>
-        <p>Find my info <a href="{{ site.baseurl }}/about"><b>here</b></a>.</p>
-        <br>
-        <p>{{site.description}}</p>
+<div class="container">
+  <div class="row name">
+    <div class="four columns">
+      <h1>Alex Freska</h1>
     </div>
-
-    <div id="columns">
-        <div class="column">
-            <div id="code" class="section">
-                <h1>Code / Hardware</h1>
-                <ul class="posts">
-                    {% for post in site.categories.code %}
-                    <li>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-        <div class="column">
-            <div id="projects" class="section">
-                <h1>Non-Technical Projects</h1>
-                <ul class="posts">
-                    {% for post in site.categories.projects %}
-                    <li>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <div id="posts" class="section">
-                <h1>Writing</h1>
-                <ul class="posts">
-                    {% for post in site.categories.posts %}
-                    <li>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </li>
-                    {% endfor %}
-                    <li>
-                    <a class="post-link" target="_blank" href="http://energypolitics.tumblr.com/post/97145411178/the-cost-of-an-iphone">Energy Politics: The Cost of An iPhone</a>
-                    </li>
-                </ul>
-            </div>
-            <div id="places" class="section">
-                <h1>Places</h1>
-                <ul class="posts">
-                    <li><em>Coming Soon</em></li>
-                </ul>
-            </div>
-        </div>
+  </div>
+  <div class="row content">
+    <div id="about" class="four columns">
+      <h4>Intro</h4>
+      <p>{{site.description}}</p>
     </div>
+    <div class="four columns">
+      <div id="code" class="section">
+        <h4>Research & Work</h4>
+        <ul class="posts">
+          {% for post in site.categories.code %}
+          <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} - {{ post.description }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="four columns">
+      <div id="reading" class="section">
+        <h4>Recommended Reads</h4>
+        <ul class="posts">
+          <li>
+          <a class="post-link" target="__blank" href="http://arxiv.org/pdf/1503.05743.pdf">Distributed Deep Learning on the Web</a>
+          </li>
+          <li>
+          <a class="post-link" target="__blank" href="http://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html">Introducing Relay & GraphQL</a>
+          </li>
+          <li>
+          <a class="post-link" target="__blank" href="http://nerds.airbnb.com/mapping-world/">Mapping the World</a>
+          </li>
+          <li>
+          <a class="post-link" target="__blank" href="http://karpathy.github.io/neuralnets/">Hacker's Guide to Neural Networks</a>
+          </li>
+        </ul>
+      </div>
+      <div id="projects" class="section">
+        <h4>Projects I Support</h4>
+        <ul class="posts">
+          <li>
+          <a class="post-link" target="__blank" href="http://www.juaraturtleproject.com/">Juara Turtle Project</a>
+          </li>
+          <li>
+          <a class="post-link" target="__blank" href="http://neovim.io/">Neovim</a>
+          </li>
+        </ul>
+      </div>
+      <div id="posts" class="section">
+        <h4>Writing</h4>
+        <ul class="posts">
+          {% for post in site.categories.posts %}
+          <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="row"> -->
+  <!--   <div class="four columns"></div> -->
+  <!--   <div class="four columns"><img class="logo" src="assets/logo.png"/></div> -->
+  <!--   <div class="four columns"></div> -->
+  <!-- </div> -->
+
 </div>
