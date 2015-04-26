@@ -9,15 +9,19 @@ body a {
 .post-content a {
   text-decoration: underline;
 }
+
 body li {
   list-style-type: none;
 }
 .columns, .column {
   min-height: 1px;
 }
-.name {
+.page-title {
   padding-bottom: 5px;
   padding-top: 40px;
+}
+.project-name {
+  /* font-weight: 600; */
 }
 .content {
   padding-bottom: 140px;
@@ -36,12 +40,21 @@ body li {
 h4 {
   font-weight: 800;
   font-size: 14px;
+  /* letter-spacing: 0.1rem; */
   text-transform: uppercase;
+}
+h5 {
+  font-weight
 }
 
 .post-link {
   font-size: 14px;
   font-weight: 400;
+}
+
+.post-description {
+  font-style: italic;
+
 }
 
 .logo {

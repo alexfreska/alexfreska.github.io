@@ -7,9 +7,7 @@ description: "a modern learning system"
 image: "grapefruit.png"
 ---
 
-[**Grapefruit**][gf]
-
-The Grapefruit LMS is built to be intuitive and powerful. We have set out to design a system that instructors *want* to use. Instructors need a platform that helps them better communicate their concepts while not getting in the way. The thoughtless design practices seen across classic LMS systems all lead to an impersonal and dull learning experience. Our design challenge with Grapefruit is building a system that promotes a personal and connected learning experience, both in the physical classroom and online.
+The [**Grapefruit**][gf] LMS is built to be intuitive and powerful. We have set out to design a system that instructors *want* to use. Instructors need a platform that helps them better communicate their concepts while not getting in the way. The thoughtless design practices seen across classic LMS systems all lead to an impersonal and dull learning experience. Our design challenge with Grapefruit is building a system that promotes a personal and connected learning experience, both in the physical classroom and online.
 
 When talking about learning systems the first question anyone asks is "what features does system X or Y include?" Although the feature-set of a platform is important, making it the primary concern is problematic because it opens the discussion in a way that forever overlooks the importance of design quality. By immediately bringing up the number of features, the focus of the discussion is directed to quantity rather than quality. If we avoid this and focus the discussion on topics such as quality, usability, and effectiveness, and then translate the findings into a unified design, we can invent a much better platform. The idea is to create a platform that truly makes learning more effective.
 

@@ -2,11 +2,11 @@
 layout: default
 ---
 <div class="container post">
-  <div class="row name">
+  <div class="row page-title">
     <div class="six columns">
       <p><a href="{{ site.url }}">←  home</a></p>
       <h1>{{ page.title }}</h1>
-      <h5>{{ page.description }}</h5>
+      <h5 class="post-description">{{ page.description }}</h5>
     </div>
   </div>
 
@@ -14,6 +14,8 @@ layout: default
     <div class="six columns">
       <article class="post-content">
         {{ content }}
+        <br>
+        <p>Feel free to start a conversation via <a target="__blank" href="https://twitter.com/alexfreska"><b>Twitter</b>.</a></p>
       </sarticle>
     </div>
     <div class="six columns">

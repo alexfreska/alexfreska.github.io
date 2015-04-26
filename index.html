@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="container">
-  <div class="row name">
+  <div class="row page-title">
     <div class="four columns">
       <h1>Alex Freska</h1>
     </div>
@@ -19,7 +19,7 @@ layout: default
         <ul class="posts">
           {% for post in site.categories.code %}
           <li>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} - {{ post.description }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="project-name">{{ post.title }}</span> - {{ post.description }}</a>
           </li>
           {% endfor %}
         </ul>
