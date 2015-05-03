@@ -1,10 +1,14 @@
 body {
-  /* font-family: "Proxima Nova"; */
-  font-family: "Chaparral Pro";
+  font-family: "Proxima Nova";
+  /* font-family: "Chaparral Pro"; */
+  /* font-family: "Adelle"; */
 }
 body a {
   text-decoration: none;
-  color: #222;
+  color: #aaa;
+}
+p {
+  color: #aaa;
 }
 .post-content a {
   text-decoration: underline;
@@ -16,19 +20,63 @@ body li {
 .columns, .column {
   min-height: 1px;
 }
+.logo {
+  display: none;
+}
+@media (min-width: 950px) {
+  .logo {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 75px;
+    float: left;
+  }
+}
+.me {
+  /* padding: 2rem; */
+  /* padding-top: 4.0rem; */
+  /* padding-left: 1.5rem; */
+  float: left;
+  letter-spacing: 0.1rem;
+}
+.about {
+  /* clear: left; */
+  /* float: right; */
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+.me h3 {
+  padding-top: 1.5rem;
+  margin-bottom: 0;
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+}
+.me p {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #55D2F6;
+}
+.about a {
+  padding-right: 15px;
+}
 .page-title {
-  padding-bottom: 5px;
+  padding-bottom: 35px;
   padding-top: 40px;
 }
+.page-title h1 {
+  margin-bottom: 5px;
+}
 .project-name {
-  /* font-weight: 600; */
+  font-weight: 400;
+  color: #555;
+}
+a:hover .project-name {
+  color: inherit;
 }
 .content {
   padding-bottom: 140px;
-}
-.site-header {
-  padding-top: 40px;
-  padding-bottom: 20px;
 }
 .site-title {
   font-size: 24px;
@@ -40,16 +88,23 @@ body li {
 h4 {
   font-weight: 800;
   font-size: 14px;
-  /* letter-spacing: 0.1rem; */
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
+  font-family: "Proxima Nova";
+  color: #55D2F6;
 }
 h5 {
-  font-weight
 }
-
+.posts li {
+  padding: 0.4rem 0rem;
+}
+.posts li:first-child {
+  padding-top: 0;
+}
 .post-link {
   font-size: 14px;
   font-weight: 400;
+  /* color: #aaa; */
 }
 
 .post-description {
@@ -57,11 +112,14 @@ h5 {
 
 }
 
-.logo {
-  width: 100%;
+.hire-me {
+  padding-top: 3rem;
 }
 
 .post-image {
   width: 70%;
   display: block;
+}
+.site-footer {
+  margin-bottom: 5rem;
 }
