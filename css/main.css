@@ -21,22 +21,26 @@ body li {
   min-height: 1px;
 }
 .logo {
-  display: none;
+  width: 7rem;
+  display: inline;
+  float: left;
+  /* padding-top: 1rem; */
 }
+
 @media (min-width: 950px) {
   .logo {
-    display: block;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 75px;
-    float: left;
+    /* display: block; */
+    /* position: fixed; */
+    /* top: 20px; */
+    /* left: 20px; */
+    /* width: 75px; */
+    /* float: left; */
   }
 }
 .me {
-  /* padding: 2rem; */
-  /* padding-top: 4.0rem; */
-  /* padding-left: 1.5rem; */
+  padding: 2rem;
+  padding-top: 0rem;
+  padding-left: 1.5rem;
   float: left;
   letter-spacing: 0.1rem;
 }
