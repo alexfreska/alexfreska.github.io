@@ -16,6 +16,6 @@ Designing Grapefruit has been an exercise of restraint; we are always considerin
 
 Our opinionated approach may limit our potential users, but this is exactly what we want. To change education, we must start by collaborating and building with the most forward-thinking, driven teachers around the world - the teachers who are constantly looking for new ways to more effectively teach and inspire their students. Together as a community we can move to influence all educators and work towards the greater goal of instilling every person with the desire to learn and the the best tools possible to do so.
 
-<img src="{{site.url}}/assets/grapefruit.png" alt="template" style="width: 100%;"/>
+<img src="{{site.url}}assets/grapefruit.png" alt="template" style="width: 100%;"/>
 
 [gf]: https://grapefruit.link
