@@ -3,125 +3,25 @@ body {
   /* font-family: "Chaparral Pro"; */
   /* font-family: "Adelle"; */
 }
-body a {
-  text-decoration: none;
-  color: #aaa;
-}
-p {
-  color: #aaa;
-}
-.post-content a {
-  text-decoration: underline;
+
+.center-container {
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
 }
 
-body li {
-  list-style-type: none;
-}
-.columns, .column {
-  min-height: 1px;
-}
-.logo {
-  width: 7rem;
-  display: inline;
-  float: left;
-  /* padding-top: 1rem; */
-}
-
-@media (min-width: 950px) {
-  .logo {
-    /* display: block; */
-    /* position: fixed; */
-    /* top: 20px; */
-    /* left: 20px; */
-    /* width: 75px; */
-    /* float: left; */
-  }
-}
-.me {
-  padding-top: 0rem;
-  float: left;
-  letter-spacing: 0.1rem;
-}
-.about {
-  /* clear: left; */
-  /* float: right; */
-  padding-top: 3rem;
-  margin-bottom: 3rem;
-}
-.me h3 {
-  padding-top: 1.5rem;
-  margin-bottom: 0;
-  font-size: 2.4rem;
-  font-weight: 800;
-  letter-spacing: 0.1rem;
-}
-.me p {
-  margin-top: 0;
-  font-size: 1.5rem;
-  color: #55D2F6;
-}
-.about a {
-  padding-right: 15px;
-}
-.page-title {
-  padding-bottom: 35px;
-  padding-top: 40px;
-}
-.page-title h1 {
-  margin-bottom: 5px;
-}
-.project-name {
-  font-weight: 400;
-  color: #555;
-}
-a:hover .project-name {
-  color: inherit;
-}
-.content {
-  padding-bottom: 140px;
-}
-.site-title {
-  font-size: 24px;
-}
-.site-nav {
-  float: right;
-}
-
-h4 {
-  font-weight: 800;
-  font-size: 14px;
-  letter-spacing: 0.1rem;
+.centered-h1 {
+  color: #222;
+  font-weight: 700;
   text-transform: uppercase;
-  font-family: "Proxima Nova";
-  color: #55D2F6;
+  font-size: 3.8rem;
 }
-h5 {
-}
-.posts li {
-  padding: 0.4rem 0rem;
-}
-.posts li:first-child {
-  padding-top: 0;
-}
-.post-link {
-  font-size: 14px;
+
+.centered-p {
+  color: #555;
+  font-size: 1.6rem;
   font-weight: 400;
-  /* color: #aaa; */
-}
-
-.post-description {
-  font-style: italic;
-
-}
-
-.hire-me {
-  padding-top: 3rem;
-}
-
-.post-image {
-  width: 70%;
-  display: block;
-}
-.site-footer {
-  margin-bottom: 5rem;
 }
